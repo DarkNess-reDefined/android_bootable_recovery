@@ -107,7 +107,7 @@ LOCAL_STATIC_LIBRARIES := \
 # LOCAL_HEADER_LIBRARIES := libext2-headers
 
 LOCAL_C_INCLUDES += \
-    $(call project-path-for,recovery)/otafault \
+    bootable/recovery/otafault \
     external/e2fsprogs/lib
 LOCAL_STATIC_LIBRARIES += libext2_blkid libext2_uuid
 
